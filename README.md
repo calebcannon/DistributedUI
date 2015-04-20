@@ -1,28 +1,66 @@
 Distributed UI Framework
 ========================
 
-This framework is intended to allow developers to easily create applications that can spread their user interfaces 
-across multiple iOS and MacOS devices.  The framework is designed to allow a nearly seamless development pattern
-in which user input events and states are propogated over the network connection using ordinary outlet and accessor
-methods.  The framework exposes additional simplified functionality for distributed computing by sharing data 
-across the network interface.
-
+The goal of this project is to provide a framework that developers can use to create a unified application that runs
+concurrently across multiple devices.  This is not a cross platform framework like qt, but something akin to a hybrid
+message passing / shared memory parallel programming system. This framework is intended to allow developers to easily
+create applications that can spread their user interfaces across multiple iOS and MacOS devices, while maintaining 
+common development patterns like MVC, delegation, and KVO. Ultimately we would like to provide a nearly seamless 
+development pattern in which the developer can create storyboards for multiple and concurrent executing devices that 
+may be automatically integrated and removed from existing application sessions. The  framework exposes additional 
+simplified  functionality for distributed computing by sharing data across the network interface.
 
 Integrating into the Application
 --------------------------------
 
-* Design components in such a way as to facilitate UI extensions.  E.g., inspector windows and tool palettes
+* Add the DistributedUI.framework for Mac or iOS to your project.
+* Use `@import DistributedUI` to source files that should interact with the DUI system.
+* Use the `SYNTHESIZE_SHARED_SINGLETON()` macro to register shared instances of your main controller classes, or register shared objects directly.
+* Start a DUISession. Hosts advertise their presence on the network interface and a client browsers for connections
 
-* Integrate the framework
-	* Initialization
+	```
+	[[DUIManager sharedDUIManager] startDistributedInterfaceHostSession];
+		... or ...
+	[[DUIManager sharedDUIManager] startDistributedInterfaceClientSession];
+	```
 
-* Establish a connection
-	* Client - Server
-	* Changing the Server
-	* Object Proxies
+* Establish a connection using MCBrowserViewController.
+* When connection is made the DUIPeerDidConnect noitification is sent out.  Dismiss the browser.  You're now runnning
+  a distributed application session.
 
-* Propogate events and states
+Development Notes
+-----------------
+
+* Guidelines for copying mutable and immutable objects are generally inverted for DUI sessions.  Because utable objects are subject to change they are not safe to copy remotely where a change might not be propogated. An immutable object can be safely copied and stored remotely since it is gauranteed to remain consistent.
+* Design components in such a way as to facilitate UI extensions. E.g., move controls into view controllers instead of toolbars.  This will let your application use more real estate for the document content.
+
+Todo
+----
+
+* Add a custom pairing view controller and/or make the pairing process less interactive.  Also provide an automatic connection option.
+* Add method decorators (e.g., DUI_NONBLOCKING, DUI_BLOCKING, etc), that serve to declare methods as supported under DUI and to control their behaviour.
+* Add unit test coverage for all foundation classes and types.
+* Add better exceptions and errors.
+* Add NSApplication extensions.  Make the DUI session more like a single 'app'.
+* We are currently running without any security of any kind.    o_O
+* Add support for remote KVO
+* Add categories/method swizzles on NSObject and NSNotification center to support /automatic/ remote registration of key and notification observers.
+* Work towards a less client-host and more peer-to-peer model.
+* Flip the connect model.  It makes more sense for clients to advertise and hosts to invite them to sessions.
+
+Examples
+--------
+### DUIDraw
+
+![DUIDraw Screen Shot](https://cloud.githubusercontent.com/assets/450207/7239063/d296b2ba-e75b-11e4-97bb-4c69a7090e72.png)
+
+### DUIChess
+
+![DUIChess Screen Shot](https://cloud.githubusercontent.com/assets/450207/7238052/b521aa34-e754-11e4-8315-e52d60af051e.png)
+![DUIChess Screen Shot](https://cloud.githubusercontent.com/assets/450207/7238049/b1f34a0c-e754-11e4-9ec1-b4119d9fc4fa.png)
 
 
 Copyright & Acknowledgements
 ----------------------------
+
+Copyright (C) Caleb C. Cannon 2015

@@ -2,12 +2,32 @@
 //  DistributedUI.m
 //  DistributedUI
 //
-//  Created by Caleb Cannon on 12/6/13.
-//  Copyright (c) 2013 Caleb Cannon. All rights reserved.
+//  Created by Caleb Cannon on 4/8/15.
+//  Copyright (c) 2015 Caleb Cannon. All rights reserved.
 //
 
-#import "DistributedUI.h"
 
-@implementation DistributedUI
+NSString * const DUIException = @"DUIException";
 
-@end
+// Default log levels
+static NSUInteger DUILogFlagsSet = DUILogError |
+								   DUILogWarning |
+								   DUILogInfo | DUILogVerbose;
+
+void DUISetLogFlags(NSUInteger flags)
+{
+	DUILogFlagsSet = flags;
+}
+
+void DUILog(NSUInteger flags, NSString *format, ...)
+{
+	if (flags & DUILogFlagsSet)
+	{
+		va_list args;
+		va_start(args, format);
+		NSLogv(format, args);
+		va_end(args);
+	}
+}
+
+

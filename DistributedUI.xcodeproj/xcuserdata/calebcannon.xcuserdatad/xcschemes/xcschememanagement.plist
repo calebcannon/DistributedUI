@@ -4,20 +4,90 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DistributedUI.xcscheme</key>
+		<key>DistributedUI-OSX.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+		<key>DistributedUI-iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>A817DB1018D38F9800D5A6DA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A817DB3018D38FD700D5A6DA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A817DB4018D38FD800D5A6DA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8557A3618D38C9B0021C5A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8557A4318D38C9C0021C5A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A85EB0171AD99DFB00003F81</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A85EB0211AD99DFB00003F81</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8A08C7218D3852B0040DB4F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8C9AF251AD2FCD00023A8F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8C9AF2F1AD2FCF30023A8F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A8DE279218526F8C00D1928D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>A8DE27A218526F8C00D1928D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8F2EBE81868AF7E008D5621</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8F2EC0A186EC15E008D5621</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AA0FB44E1867C2E200268FB0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

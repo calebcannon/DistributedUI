@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A85EAFE21AD99DBF00003F81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A85EAFE11AD99DBF00003F81 /* AppDelegate.m */; };
+		A85EAFE41AD99DBF00003F81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A85EAFE31AD99DBF00003F81 /* main.m */; };
+		A85EAFE71AD99DBF00003F81 /* DUIChessNewGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A85EAFE61AD99DBF00003F81 /* DUIChessNewGameViewController.m */; };
+		A85EAFE91AD99DBF00003F81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85EAFE81AD99DBF00003F81 /* Images.xcassets */; };
+		A85EAFEC1AD99DBF00003F81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85EAFEA1AD99DBF00003F81 /* Main.storyboard */; };
+		A89CD2BB1AD9ED3300C010ED /* DistributedUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AB09EF1AD9B16F003BA523 /* DistributedUI.framework */; };
+		A89CD2BC1AD9ED3300C010ED /* DistributedUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AB09EF1AD9B16F003BA523 /* DistributedUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8AB09F21AD9BA1B003BA523 /* DUIChessView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AB09F11AD9BA1B003BA523 /* DUIChessView.m */; };
+		A8AB09F51AD9D4B4003BA523 /* DUIChessCrossDissolveSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AB09F41AD9D4B4003BA523 /* DUIChessCrossDissolveSegue.m */; };
+		A8AB09F91AD9DD7F003BA523 /* DUIChessPieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AB09F81AD9DD7F003BA523 /* DUIChessPieceView.m */; };
+		A8AB09FD1AD9DDC9003BA523 /* DUIChessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AB09FC1AD9DDC9003BA523 /* DUIChessManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A85EB0091AD99DD400003F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85EB0011AD99DD400003F81 /* DistributedUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8C9AF261AD2FCD10023A8F1;
+			remoteInfo = DistributedUI;
+		};
+		A85EB00F1AD99DD400003F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85EB0011AD99DD400003F81 /* DistributedUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8F2EC1C186EC15E008D5621;
+			remoteInfo = "DistributedUI iOS Tests";
+		};
+		A85EB0111AD99DD400003F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85EB0011AD99DD400003F81 /* DistributedUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AA0FB44F1867C2E200268FB0;
+			remoteInfo = "DistributedUI OSX Tests";
+		};
+		A89CD2BD1AD9ED3300C010ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85EB0011AD99DD400003F81 /* DistributedUI.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A85EB0171AD99DFB00003F81;
+			remoteInfo = "DistributedUI-OSX";
+		};
+		A8AB09EE1AD9B16F003BA523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85EB0011AD99DD400003F81 /* DistributedUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A85EB0181AD99DFB00003F81;
+			remoteInfo = DistributedUIOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A89CD2BF1AD9ED3300C010ED /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A89CD2BC1AD9ED3300C010ED /* DistributedUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A85EAFDB1AD99DBF00003F81 /* DUIChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DUIChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85EAFDF1AD99DBF00003F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A85EAFE01AD99DBF00003F81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A85EAFE11AD99DBF00003F81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A85EAFE31AD99DBF00003F81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A85EAFE51AD99DBF00003F81 /* DUIChessNewGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUIChessNewGameViewController.h; sourceTree = "<group>"; };
+		A85EAFE61AD99DBF00003F81 /* DUIChessNewGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUIChessNewGameViewController.m; sourceTree = "<group>"; };
+		A85EAFE81AD99DBF00003F81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A85EAFEB1AD99DBF00003F81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A85EB0011AD99DD400003F81 /* DistributedUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DistributedUI.xcodeproj; path = ../../DistributedUI.xcodeproj; sourceTree = "<group>"; };
+		A8AB09F01AD9BA1B003BA523 /* DUIChessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUIChessView.h; sourceTree = "<group>"; };
+		A8AB09F11AD9BA1B003BA523 /* DUIChessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUIChessView.m; sourceTree = "<group>"; };
+		A8AB09F31AD9D4B4003BA523 /* DUIChessCrossDissolveSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUIChessCrossDissolveSegue.h; sourceTree = "<group>"; };
+		A8AB09F41AD9D4B4003BA523 /* DUIChessCrossDissolveSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUIChessCrossDissolveSegue.m; sourceTree = "<group>"; };
+		A8AB09F71AD9DD7F003BA523 /* DUIChessPieceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUIChessPieceView.h; sourceTree = "<group>"; };
+		A8AB09F81AD9DD7F003BA523 /* DUIChessPieceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUIChessPieceView.m; sourceTree = "<group>"; };
+		A8AB09FB1AD9DDC9003BA523 /* DUIChessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUIChessManager.h; sourceTree = "<group>"; };
+		A8AB09FC1AD9DDC9003BA523 /* DUIChessManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUIChessManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A85EAFD81AD99DBF00003F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89CD2BB1AD9ED3300C010ED /* DistributedUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A85EAFD21AD99DBE00003F81 = {
+			isa = PBXGroup;
+			children = (
+				A85EAFDD1AD99DBF00003F81 /* DUIChessOSX */,
+				A85EAFDC1AD99DBF00003F81 /* Products */,
+				A85EB0011AD99DD400003F81 /* DistributedUI.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		A85EAFDC1AD99DBF00003F81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A85EAFDB1AD99DBF00003F81 /* DUIChess.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A85EAFDD1AD99DBF00003F81 /* DUIChessOSX */ = {
+			isa = PBXGroup;
+			children = (
+				A85EAFE01AD99DBF00003F81 /* AppDelegate.h */,
+				A85EAFE11AD99DBF00003F81 /* AppDelegate.m */,
+				A8AB09F31AD9D4B4003BA523 /* DUIChessCrossDissolveSegue.h */,
+				A8AB09F41AD9D4B4003BA523 /* DUIChessCrossDissolveSegue.m */,
+				A85EAFE51AD99DBF00003F81 /* DUIChessNewGameViewController.h */,
+				A85EAFE61AD99DBF00003F81 /* DUIChessNewGameViewController.m */,
+				A8AB09F01AD9BA1B003BA523 /* DUIChessView.h */,
+				A8AB09F11AD9BA1B003BA523 /* DUIChessView.m */,
+				A8AB09F71AD9DD7F003BA523 /* DUIChessPieceView.h */,
+				A8AB09F81AD9DD7F003BA523 /* DUIChessPieceView.m */,
+				A8AB09FB1AD9DDC9003BA523 /* DUIChessManager.h */,
+				A8AB09FC1AD9DDC9003BA523 /* DUIChessManager.m */,
+				A85EAFDE1AD99DBF00003F81 /* Supporting Files */,
+			);
+			path = DUIChessOSX;
+			sourceTree = "<group>";
+		};
+		A85EAFDE1AD99DBF00003F81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A85EAFE81AD99DBF00003F81 /* Images.xcassets */,
+				A85EAFEA1AD99DBF00003F81 /* Main.storyboard */,
+				A85EAFDF1AD99DBF00003F81 /* Info.plist */,
+				A85EAFE31AD99DBF00003F81 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A85EB0021AD99DD400003F81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A85EB00A1AD99DD400003F81 /* DistributedUI.framework */,
+				A8AB09EF1AD9B16F003BA523 /* DistributedUI.framework */,
+				A85EB0101AD99DD400003F81 /* DistributedUI iOS Tests.xctest */,
+				A85EB0121AD99DD400003F81 /* DistributedUI OSX Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A85EAFDA1AD99DBF00003F81 /* DUIChess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85EAFFB1AD99DBF00003F81 /* Build configuration list for PBXNativeTarget "DUIChess" */;
+			buildPhases = (
+				A85EAFD71AD99DBF00003F81 /* Sources */,
+				A85EAFD81AD99DBF00003F81 /* Frameworks */,
+				A85EAFD91AD99DBF00003F81 /* Resources */,
+				A89CD2BF1AD9ED3300C010ED /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A89CD2BE1AD9ED3300C010ED /* PBXTargetDependency */,
+			);
+			name = DUIChess;
+			productName = DUIChessOSX;
+			productReference = A85EAFDB1AD99DBF00003F81 /* DUIChess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A85EAFD31AD99DBE00003F81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Caleb Cannon";
+				TargetAttributes = {
+					A85EAFDA1AD99DBF00003F81 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = A85EAFD61AD99DBE00003F81 /* Build configuration list for PBXProject "DUIChess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A85EAFD21AD99DBE00003F81;
+			productRefGroup = A85EAFDC1AD99DBF00003F81 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A85EB0021AD99DD400003F81 /* Products */;
+					ProjectRef = A85EB0011AD99DD400003F81 /* DistributedUI.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A85EAFDA1AD99DBF00003F81 /* DUIChess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A85EB00A1AD99DD400003F81 /* DistributedUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DistributedUI.framework;
+			remoteRef = A85EB0091AD99DD400003F81 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A85EB0101AD99DD400003F81 /* DistributedUI iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "DistributedUI iOS Tests.xctest";
+			remoteRef = A85EB00F1AD99DD400003F81 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A85EB0121AD99DD400003F81 /* DistributedUI OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "DistributedUI OSX Tests.xctest";
+			remoteRef = A85EB0111AD99DD400003F81 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8AB09EF1AD9B16F003BA523 /* DistributedUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DistributedUI.framework;
+			remoteRef = A8AB09EE1AD9B16F003BA523 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A85EAFD91AD99DBF00003F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85EAFE91AD99DBF00003F81 /* Images.xcassets in Resources */,
+				A85EAFEC1AD99DBF00003F81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A85EAFD71AD99DBF00003F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8AB09F21AD9BA1B003BA523 /* DUIChessView.m in Sources */,
+				A85EAFE71AD99DBF00003F81 /* DUIChessNewGameViewController.m in Sources */,
+				A85EAFE41AD99DBF00003F81 /* main.m in Sources */,
+				A8AB09FD1AD9DDC9003BA523 /* DUIChessManager.m in Sources */,
+				A85EAFE21AD99DBF00003F81 /* AppDelegate.m in Sources */,
+				A8AB09F51AD9D4B4003BA523 /* DUIChessCrossDissolveSegue.m in Sources */,
+				A8AB09F91AD9DD7F003BA523 /* DUIChessPieceView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A89CD2BE1AD9ED3300C010ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DistributedUI-OSX";
+			targetProxy = A89CD2BD1AD9ED3300C010ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A85EAFEA1AD99DBF00003F81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A85EAFEB1AD99DBF00003F81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A85EAFF91AD99DBF00003F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A85EAFFA1AD99DBF00003F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A85EAFFC1AD99DBF00003F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DUIChessOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A85EAFFD1AD99DBF00003F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DUIChessOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A85EAFD61AD99DBE00003F81 /* Build configuration list for PBXProject "DUIChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85EAFF91AD99DBF00003F81 /* Debug */,
+				A85EAFFA1AD99DBF00003F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85EAFFB1AD99DBF00003F81 /* Build configuration list for PBXNativeTarget "DUIChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85EAFFC1AD99DBF00003F81 /* Debug */,
+				A85EAFFD1AD99DBF00003F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A85EAFD31AD99DBE00003F81 /* Project object */;
+}

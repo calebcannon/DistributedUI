@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4Cp-MU-f7i">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Chess New Game View Controller-->
+        <scene sceneID="MnT-4c-Myk">
+            <objects>
+                <viewController id="4Cp-MU-f7i" customClass="DUIChessNewGameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nIa-dA-xIv"/>
+                        <viewControllerLayoutGuide type="bottom" id="flb-RY-DF2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SNb-5s-cxO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ckH-vI-If1">
+                                <rect key="frame" x="20" y="155" width="280" height="259"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r4j-x5-Bb8">
+                                        <rect key="frame" x="95" y="164" width="90" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <state key="normal" title="Connect">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="connect:" destination="4Cp-MU-f7i" eventType="touchUpInside" id="PP8-Qd-zVJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9P-f8-2Wf">
+                                        <rect key="frame" x="114" y="55" width="50" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <state key="normal" title="Host">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="host:" destination="4Cp-MU-f7i" eventType="touchUpInside" id="mqg-Ua-Fsy"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="259" id="8VN-Kl-8ax"/>
+                                    <constraint firstAttribute="width" constant="280" id="RPX-K0-WfC"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="ckH-vI-If1" secondAttribute="centerX" id="4A0-w4-iQf"/>
+                            <constraint firstAttribute="centerY" secondItem="ckH-vI-If1" secondAttribute="centerY" constant="-0.5" id="hmf-wZ-8Qm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="a88-mc-jtk" kind="modal" identifier="PresentChessView" modalTransitionStyle="crossDissolve" id="l9G-eN-pf6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VlW-o3-sN7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="443" y="151"/>
+        </scene>
+        <!--Chess View Controller-->
+        <scene sceneID="qwH-Tj-85g">
+            <objects>
+                <viewController id="a88-mc-jtk" customClass="DUIChessViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LNQ-Rb-iNQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="xx2-xk-q1t"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HrY-Wg-JlU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xws-c4-dlc" customClass="DUIChessBoardView">
+                                <rect key="frame" x="0.0" y="124" width="320" height="320"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="320" id="BlG-Dr-MCA"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="320" id="WoP-2r-wbJ"/>
+                                    <constraint firstAttribute="width" secondItem="Xws-c4-dlc" secondAttribute="height" multiplier="1:1" id="wBC-4Q-xmE"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kZa-51-wek">
+                                <rect key="frame" x="268" y="524" width="36" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="9fC-fR-U5S"/>
+                                    <constraint firstAttribute="width" constant="36" id="ppM-ss-4RV"/>
+                                </constraints>
+                                <state key="normal" image="Quit Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="quit:" destination="a88-mc-jtk" eventType="touchUpInside" id="j30-4s-xFP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="Xws-c4-dlc" secondAttribute="centerX" id="1LK-eA-Gg2"/>
+                            <constraint firstItem="kZa-51-wek" firstAttribute="trailing" secondItem="HrY-Wg-JlU" secondAttribute="trailingMargin" id="MZW-Qi-EZz"/>
+                            <constraint firstItem="xx2-xk-q1t" firstAttribute="top" secondItem="kZa-51-wek" secondAttribute="bottom" constant="8" id="RQO-MO-COr"/>
+                            <constraint firstItem="Xws-c4-dlc" firstAttribute="width" relation="lessThanOrEqual" secondItem="HrY-Wg-JlU" secondAttribute="width" id="nfs-Ht-9El"/>
+                            <constraint firstAttribute="centerY" secondItem="Xws-c4-dlc" secondAttribute="centerY" id="sw9-p3-RU9"/>
+                            <constraint firstItem="Xws-c4-dlc" firstAttribute="height" relation="lessThanOrEqual" secondItem="HrY-Wg-JlU" secondAttribute="height" id="u3N-wx-oU0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="1vc-91-aE9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iuc-U9-6ba" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="875" y="151"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Quit Button" width="152" height="152"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <nil key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

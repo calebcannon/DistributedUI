@@ -5,5 +5,13 @@
 //
 
 #ifdef __OBJC__
-	#import <Foundation/Foundation.h>
+
+@import Foundation;
+
+#import "DistributedUI.h"
+#import "DUISingleton.h"
+
+
+
+
 #endif

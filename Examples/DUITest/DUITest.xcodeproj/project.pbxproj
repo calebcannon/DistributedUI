@@ -7,57 +7,157 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8268D681871317A00D137CF /* downarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A8268D671871317A00D137CF /* downarrow.png */; };
+		A854625518D7A06D0097D97D /* DUITestSingletonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A854625418D7A06D0097D97D /* DUITestSingletonClass.m */; };
+		A854626718D7A65F0097D97D /* DUITestClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A854626418D7A65F0097D97D /* DUITestClientViewController.m */; };
+		A854626B18D7A6980097D97D /* DUITestHostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A854626A18D7A6980097D97D /* DUITestHostViewController.m */; };
+		A8A08C9718D385DB0040DB4F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A08C9618D385DB0040DB4F /* Cocoa.framework */; };
+		A8C6ACF91AE2D6FB004F31D9 /* DistributedUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C6ACEC1AE2D17C004F31D9 /* DistributedUI.framework */; };
+		A8C6ACFA1AE2D6FB004F31D9 /* DistributedUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8C6ACEC1AE2D17C004F31D9 /* DistributedUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8C6ACFF1AE2DC47004F31D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8C6ACFE1AE2DC47004F31D9 /* Main.storyboard */; };
+		A8C6AD051AE2E4BD004F31D9 /* DUITestSingletonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A854625418D7A06D0097D97D /* DUITestSingletonClass.m */; };
+		A8C6AD081AE2E4EC004F31D9 /* DUIMacTestControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6AD071AE2E4EC004F31D9 /* DUIMacTestControlsViewController.m */; };
+		A8C6AD0C1AE2E4F5004F31D9 /* DUIMacTestHostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6AD0A1AE2E4F5004F31D9 /* DUIMacTestHostViewController.m */; };
+		A8C6AD111AE2E4FE004F31D9 /* DUIMacTestClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6AD0F1AE2E4FE004F31D9 /* DUIMacTestClientViewController.m */; };
+		A8C6AD141AE2E83B004F31D9 /* downarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A8268D671871317A00D137CF /* downarrow.png */; };
+		A8C6AD1D1AE3144F004F31D9 /* DistributedUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C6ACEE1AE2D17C004F31D9 /* DistributedUI.framework */; };
+		A8C6AD1E1AE3144F004F31D9 /* DistributedUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8C6ACEE1AE2D17C004F31D9 /* DistributedUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A8DE27D3185276A300D1928D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DE27D2185276A300D1928D /* Foundation.framework */; };
 		A8DE27D5185276A300D1928D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DE27D4185276A300D1928D /* CoreGraphics.framework */; };
-		A8DE27D7185276A300D1928D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DE27D6185276A300D1928D /* UIKit.framework */; };
-		A8DE27DD185276A300D1928D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8DE27DB185276A300D1928D /* InfoPlist.strings */; };
-		A8DE27DF185276A300D1928D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DE27DE185276A300D1928D /* main.m */; };
-		A8DE27E3185276A300D1928D /* DAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DE27E2185276A300D1928D /* DAppDelegate.m */; };
-		A8DE27E6185276A300D1928D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8DE27E4185276A300D1928D /* Main_iPhone.storyboard */; };
-		A8DE27E9185276A300D1928D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8DE27E7185276A300D1928D /* Main_iPad.storyboard */; };
-		A8DE27EC185276A300D1928D /* DFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DE27EB185276A300D1928D /* DFirstViewController.m */; };
-		A8DE27EF185276A300D1928D /* DSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DE27EE185276A300D1928D /* DSecondViewController.m */; };
-		A8DE27F1185276A300D1928D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8DE27F0185276A300D1928D /* Images.xcassets */; };
-		A8DE27F8185276A300D1928D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DE27F7185276A300D1928D /* XCTest.framework */; };
-		A8DE27F9185276A300D1928D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DE27D2185276A300D1928D /* Foundation.framework */; };
-		A8DE27FA185276A300D1928D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DE27D6185276A300D1928D /* UIKit.framework */; };
-		A8DE2802185276A300D1928D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8DE2800185276A300D1928D /* InfoPlist.strings */; };
-		A8DE2804185276A300D1928D /* DUITestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DE2803185276A300D1928D /* DUITestTests.m */; };
+		AAAA66AC18540F7200DED5C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAAA66AA18540F7200DED5C1 /* InfoPlist.strings */; };
+		AAAA66AE18540F7200DED5C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAA66AD18540F7200DED5C1 /* main.m */; };
+		AAAA66B218540F7200DED5C1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AAAA66B018540F7200DED5C1 /* Credits.rtf */; };
+		AAAA66B518540F7200DED5C1 /* DUIMacTestOSXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAA66B418540F7200DED5C1 /* DUIMacTestOSXAppDelegate.m */; };
+		AAAA66BA18540F7200DED5C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAA66B918540F7200DED5C1 /* Images.xcassets */; };
+		AAAA66DA1854100200DED5C1 /* DUITestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAA66D41854100200DED5C1 /* DUITestAppDelegate.m */; };
+		AAAA66DB1854100200DED5C1 /* DUITestControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAA66D61854100200DED5C1 /* DUITestControlsViewController.m */; };
+		AAAA66E11854103100DED5C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAA66E01854103100DED5C1 /* main.m */; };
+		AAAA66E71854106E00DED5C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAA66E61854106E00DED5C1 /* Images.xcassets */; };
+		AAAA66F01854110600DED5C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAAA66E41854104300DED5C1 /* InfoPlist.strings */; };
+		AAAA66F6185413A200DED5C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAAA66F5185413A200DED5C1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A8DE27FB185276A300D1928D /* PBXContainerItemProxy */ = {
+		A8C6ACEB1AE2D17C004F31D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A8DE27C7185276A300D1928D /* Project object */;
+			containerPortal = A8C6ACE41AE2D17B004F31D9 /* DistributedUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8C9AF261AD2FCD10023A8F1;
+			remoteInfo = "DistributedUI-iOS";
+		};
+		A8C6ACED1AE2D17C004F31D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C6ACE41AE2D17B004F31D9 /* DistributedUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A85EB0181AD99DFB00003F81;
+			remoteInfo = "DistributedUI-OSX";
+		};
+		A8C6ACEF1AE2D17C004F31D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C6ACE41AE2D17B004F31D9 /* DistributedUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8F2EC1C186EC15E008D5621;
+			remoteInfo = "DistributedUI iOS Tests";
+		};
+		A8C6ACF11AE2D17C004F31D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C6ACE41AE2D17B004F31D9 /* DistributedUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AA0FB44F1867C2E200268FB0;
+			remoteInfo = "DistributedUI OSX Tests";
+		};
+		A8C6ACFB1AE2D6FB004F31D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C6ACE41AE2D17B004F31D9 /* DistributedUI.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = A8DE27CE185276A300D1928D;
-			remoteInfo = DUITest;
+			remoteGlobalIDString = A8C9AF251AD2FCD00023A8F1;
+			remoteInfo = "DistributedUI-iOS";
+		};
+		A8C6AD1F1AE3144F004F31D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C6ACE41AE2D17B004F31D9 /* DistributedUI.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A85EB0171AD99DFB00003F81;
+			remoteInfo = "DistributedUI-OSX";
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A8C6ACF61AE2D5B3004F31D9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A8C6ACFA1AE2D6FB004F31D9 /* DistributedUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C6AD211AE3144F004F31D9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A8C6AD1E1AE3144F004F31D9 /* DistributedUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		A8DE27CF185276A300D1928D /* DUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8268D671871317A00D137CF /* downarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = downarrow.png; path = DUITestIOS/downarrow.png; sourceTree = SOURCE_ROOT; };
+		A854625318D7A06D0097D97D /* DUITestSingletonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DUITestSingletonClass.h; path = DUITestIOS/DUITestSingletonClass.h; sourceTree = SOURCE_ROOT; };
+		A854625418D7A06D0097D97D /* DUITestSingletonClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DUITestSingletonClass.m; path = DUITestIOS/DUITestSingletonClass.m; sourceTree = SOURCE_ROOT; };
+		A854626318D7A65F0097D97D /* DUITestClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DUITestClientViewController.h; path = DUITestIOS/DUITestClientViewController.h; sourceTree = SOURCE_ROOT; };
+		A854626418D7A65F0097D97D /* DUITestClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DUITestClientViewController.m; path = DUITestIOS/DUITestClientViewController.m; sourceTree = SOURCE_ROOT; };
+		A854626918D7A6980097D97D /* DUITestHostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DUITestHostViewController.h; path = DUITestIOS/DUITestHostViewController.h; sourceTree = SOURCE_ROOT; };
+		A854626A18D7A6980097D97D /* DUITestHostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DUITestHostViewController.m; path = DUITestIOS/DUITestHostViewController.m; sourceTree = SOURCE_ROOT; };
+		A8A08C9218D385BB0040DB4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A8A08C9418D385D20040DB4F /* libDistributedUI iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libDistributedUI iOS.a"; path = "../../build/Debug-iphoneos/libDistributedUI iOS.a"; sourceTree = "<group>"; };
+		A8A08C9618D385DB0040DB4F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A8A08C9818D385DE0040DB4F /* libDistributedUI OSX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libDistributedUI OSX.a"; path = "../../build/Debug/libDistributedUI OSX.a"; sourceTree = "<group>"; };
+		A8C6ACE41AE2D17B004F31D9 /* DistributedUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DistributedUI.xcodeproj; path = ../../DistributedUI.xcodeproj; sourceTree = "<group>"; };
+		A8C6ACFE1AE2DC47004F31D9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A8C6AD061AE2E4EC004F31D9 /* DUIMacTestControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUIMacTestControlsViewController.h; sourceTree = "<group>"; };
+		A8C6AD071AE2E4EC004F31D9 /* DUIMacTestControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUIMacTestControlsViewController.m; sourceTree = "<group>"; };
+		A8C6AD091AE2E4F5004F31D9 /* DUIMacTestHostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUIMacTestHostViewController.h; sourceTree = "<group>"; };
+		A8C6AD0A1AE2E4F5004F31D9 /* DUIMacTestHostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUIMacTestHostViewController.m; sourceTree = "<group>"; };
+		A8C6AD0E1AE2E4FE004F31D9 /* DUIMacTestClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUIMacTestClientViewController.h; sourceTree = "<group>"; };
+		A8C6AD0F1AE2E4FE004F31D9 /* DUIMacTestClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUIMacTestClientViewController.m; sourceTree = "<group>"; };
+		A8DE27CF185276A300D1928D /* DUITestIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DUITestIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8DE27D2185276A300D1928D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A8DE27D4185276A300D1928D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A8DE27D6185276A300D1928D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A8DE27DA185276A300D1928D /* DUITest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DUITest-Info.plist"; sourceTree = "<group>"; };
-		A8DE27DC185276A300D1928D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A8DE27DE185276A300D1928D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A8DE27E0185276A300D1928D /* DUITest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DUITest-Prefix.pch"; sourceTree = "<group>"; };
-		A8DE27E1185276A300D1928D /* DAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAppDelegate.h; sourceTree = "<group>"; };
-		A8DE27E2185276A300D1928D /* DAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAppDelegate.m; sourceTree = "<group>"; };
-		A8DE27E5185276A300D1928D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		A8DE27E8185276A300D1928D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		A8DE27EA185276A300D1928D /* DFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFirstViewController.h; sourceTree = "<group>"; };
-		A8DE27EB185276A300D1928D /* DFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFirstViewController.m; sourceTree = "<group>"; };
-		A8DE27ED185276A300D1928D /* DSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSecondViewController.h; sourceTree = "<group>"; };
-		A8DE27EE185276A300D1928D /* DSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSecondViewController.m; sourceTree = "<group>"; };
-		A8DE27F0185276A300D1928D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A8DE27F6185276A300D1928D /* DUITestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DUITestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8DE27F7185276A300D1928D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A8DE27FF185276A300D1928D /* DUITestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DUITestTests-Info.plist"; sourceTree = "<group>"; };
-		A8DE2801185276A300D1928D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A8DE2803185276A300D1928D /* DUITestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUITestTests.m; sourceTree = "<group>"; };
+		A8E8B79818D7830000F4379B /* libDistributedUI-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libDistributedUI-iOS.a"; path = "../../build/Debug-iphoneos/libDistributedUI-iOS.a"; sourceTree = "<group>"; };
+		AAAA668F1853D2B300DED5C1 /* libDistributedUI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDistributedUI.a; path = "../../build/Debug-iphoneos/libDistributedUI.a"; sourceTree = "<group>"; };
+		AAAA66A018540F7100DED5C1 /* DUITestOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DUITestOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAAA66A118540F7200DED5C1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		AAAA66A418540F7200DED5C1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AAAA66A518540F7200DED5C1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AAAA66A618540F7200DED5C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AAAA66A918540F7200DED5C1 /* DUITestOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DUITestOSX-Info.plist"; sourceTree = "<group>"; };
+		AAAA66AB18540F7200DED5C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AAAA66AD18540F7200DED5C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAAA66AF18540F7200DED5C1 /* DUITestOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DUITestOSX-Prefix.pch"; sourceTree = "<group>"; };
+		AAAA66B118540F7200DED5C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AAAA66B318540F7200DED5C1 /* DUIMacTestOSXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUIMacTestOSXAppDelegate.h; sourceTree = "<group>"; };
+		AAAA66B418540F7200DED5C1 /* DUIMacTestOSXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUIMacTestOSXAppDelegate.m; sourceTree = "<group>"; };
+		AAAA66B918540F7200DED5C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AAAA66D21854100200DED5C1 /* DUITestIOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DUITestIOS-Prefix.pch"; path = "DUITestIOS/DUITestIOS-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		AAAA66D31854100200DED5C1 /* DUITestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DUITestAppDelegate.h; path = DUITestIOS/DUITestAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		AAAA66D41854100200DED5C1 /* DUITestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DUITestAppDelegate.m; path = DUITestIOS/DUITestAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		AAAA66D51854100200DED5C1 /* DUITestControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DUITestControlsViewController.h; path = DUITestIOS/DUITestControlsViewController.h; sourceTree = SOURCE_ROOT; };
+		AAAA66D61854100200DED5C1 /* DUITestControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DUITestControlsViewController.m; path = DUITestIOS/DUITestControlsViewController.m; sourceTree = SOURCE_ROOT; };
+		AAAA66D91854100200DED5C1 /* DUITestIOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "DUITestIOS-Info.plist"; path = "DUITestIOS/DUITestIOS-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AAAA66E01854103100DED5C1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DUITestIOS/main.m; sourceTree = SOURCE_ROOT; };
+		AAAA66E51854105200DED5C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AAAA66E61854106E00DED5C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DUITestIOS/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		AAAA66F5185413A200DED5C1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = DUITestIOS/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		AAAA66FA1854153300DED5C1 /* libDistributedUI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDistributedUI.a; path = "../../build/Debug-iphoneos/libDistributedUI.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,40 +165,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8C6ACF91AE2D6FB004F31D9 /* DistributedUI.framework in Frameworks */,
 				A8DE27D5185276A300D1928D /* CoreGraphics.framework in Frameworks */,
-				A8DE27D7185276A300D1928D /* UIKit.framework in Frameworks */,
 				A8DE27D3185276A300D1928D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8DE27F3185276A300D1928D /* Frameworks */ = {
+		AAAA669D18540F7100DED5C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8DE27F8185276A300D1928D /* XCTest.framework in Frameworks */,
-				A8DE27FA185276A300D1928D /* UIKit.framework in Frameworks */,
-				A8DE27F9185276A300D1928D /* Foundation.framework in Frameworks */,
+				A8C6AD1D1AE3144F004F31D9 /* DistributedUI.framework in Frameworks */,
+				A8A08C9718D385DB0040DB4F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8C6ACE51AE2D17B004F31D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8C6ACEC1AE2D17C004F31D9 /* DistributedUI.framework */,
+				A8C6ACEE1AE2D17C004F31D9 /* DistributedUI.framework */,
+				A8C6ACF01AE2D17C004F31D9 /* DistributedUI iOS Tests.xctest */,
+				A8C6ACF21AE2D17C004F31D9 /* DistributedUI OSX Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		A8DE27C6185276A300D1928D = {
 			isa = PBXGroup;
 			children = (
-				A8DE27D8185276A300D1928D /* DUITest */,
-				A8DE27FD185276A300D1928D /* DUITestTests */,
+				A854625318D7A06D0097D97D /* DUITestSingletonClass.h */,
+				A854625418D7A06D0097D97D /* DUITestSingletonClass.m */,
+				A8DE27D8185276A300D1928D /* DUITestIOS */,
+				AAAA66A718540F7200DED5C1 /* DUITestOSX */,
 				A8DE27D1185276A300D1928D /* Frameworks */,
 				A8DE27D0185276A300D1928D /* Products */,
+				A8C6ACE41AE2D17B004F31D9 /* DistributedUI.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
 		A8DE27D0185276A300D1928D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8DE27CF185276A300D1928D /* DUITest.app */,
-				A8DE27F6185276A300D1928D /* DUITestTests.xctest */,
+				A8DE27CF185276A300D1928D /* DUITestIOS.app */,
+				AAAA66A018540F7100DED5C1 /* DUITestOSX.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,56 +219,90 @@
 		A8DE27D1185276A300D1928D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A8E8B79818D7830000F4379B /* libDistributedUI-iOS.a */,
+				A8A08C9818D385DE0040DB4F /* libDistributedUI OSX.a */,
+				A8A08C9618D385DB0040DB4F /* Cocoa.framework */,
+				A8A08C9418D385D20040DB4F /* libDistributedUI iOS.a */,
+				A8A08C9218D385BB0040DB4F /* UIKit.framework */,
+				AAAA66FA1854153300DED5C1 /* libDistributedUI.a */,
+				AAAA668F1853D2B300DED5C1 /* libDistributedUI.a */,
 				A8DE27D2185276A300D1928D /* Foundation.framework */,
 				A8DE27D4185276A300D1928D /* CoreGraphics.framework */,
 				A8DE27D6185276A300D1928D /* UIKit.framework */,
 				A8DE27F7185276A300D1928D /* XCTest.framework */,
+				AAAA66A118540F7200DED5C1 /* Cocoa.framework */,
+				AAAA66A318540F7200DED5C1 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A8DE27D8185276A300D1928D /* DUITest */ = {
+		A8DE27D8185276A300D1928D /* DUITestIOS */ = {
 			isa = PBXGroup;
 			children = (
-				A8DE27E1185276A300D1928D /* DAppDelegate.h */,
-				A8DE27E2185276A300D1928D /* DAppDelegate.m */,
-				A8DE27E4185276A300D1928D /* Main_iPhone.storyboard */,
-				A8DE27E7185276A300D1928D /* Main_iPad.storyboard */,
-				A8DE27EA185276A300D1928D /* DFirstViewController.h */,
-				A8DE27EB185276A300D1928D /* DFirstViewController.m */,
-				A8DE27ED185276A300D1928D /* DSecondViewController.h */,
-				A8DE27EE185276A300D1928D /* DSecondViewController.m */,
-				A8DE27F0185276A300D1928D /* Images.xcassets */,
+				AAAA66D31854100200DED5C1 /* DUITestAppDelegate.h */,
+				AAAA66D41854100200DED5C1 /* DUITestAppDelegate.m */,
+				AAAA66D51854100200DED5C1 /* DUITestControlsViewController.h */,
+				AAAA66D61854100200DED5C1 /* DUITestControlsViewController.m */,
+				A854626318D7A65F0097D97D /* DUITestClientViewController.h */,
+				A854626418D7A65F0097D97D /* DUITestClientViewController.m */,
+				A854626918D7A6980097D97D /* DUITestHostViewController.h */,
+				A854626A18D7A6980097D97D /* DUITestHostViewController.m */,
+				AAAA66F5185413A200DED5C1 /* Main.storyboard */,
+				AAAA66E61854106E00DED5C1 /* Images.xcassets */,
 				A8DE27D9185276A300D1928D /* Supporting Files */,
 			);
+			name = DUITestIOS;
 			path = DUITest;
 			sourceTree = "<group>";
 		};
 		A8DE27D9185276A300D1928D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A8DE27DA185276A300D1928D /* DUITest-Info.plist */,
-				A8DE27DB185276A300D1928D /* InfoPlist.strings */,
-				A8DE27DE185276A300D1928D /* main.m */,
-				A8DE27E0185276A300D1928D /* DUITest-Prefix.pch */,
+				A8268D671871317A00D137CF /* downarrow.png */,
+				AAAA66D91854100200DED5C1 /* DUITestIOS-Info.plist */,
+				AAAA66E41854104300DED5C1 /* InfoPlist.strings */,
+				AAAA66E01854103100DED5C1 /* main.m */,
+				AAAA66D21854100200DED5C1 /* DUITestIOS-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A8DE27FD185276A300D1928D /* DUITestTests */ = {
+		AAAA66A318540F7200DED5C1 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A8DE2803185276A300D1928D /* DUITestTests.m */,
-				A8DE27FE185276A300D1928D /* Supporting Files */,
+				AAAA66A418540F7200DED5C1 /* AppKit.framework */,
+				AAAA66A518540F7200DED5C1 /* CoreData.framework */,
+				AAAA66A618540F7200DED5C1 /* Foundation.framework */,
 			);
-			path = DUITestTests;
+			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		A8DE27FE185276A300D1928D /* Supporting Files */ = {
+		AAAA66A718540F7200DED5C1 /* DUITestOSX */ = {
 			isa = PBXGroup;
 			children = (
-				A8DE27FF185276A300D1928D /* DUITestTests-Info.plist */,
-				A8DE2800185276A300D1928D /* InfoPlist.strings */,
+				AAAA66B318540F7200DED5C1 /* DUIMacTestOSXAppDelegate.h */,
+				AAAA66B418540F7200DED5C1 /* DUIMacTestOSXAppDelegate.m */,
+				A8C6AD061AE2E4EC004F31D9 /* DUIMacTestControlsViewController.h */,
+				A8C6AD071AE2E4EC004F31D9 /* DUIMacTestControlsViewController.m */,
+				A8C6AD091AE2E4F5004F31D9 /* DUIMacTestHostViewController.h */,
+				A8C6AD0A1AE2E4F5004F31D9 /* DUIMacTestHostViewController.m */,
+				A8C6AD0E1AE2E4FE004F31D9 /* DUIMacTestClientViewController.h */,
+				A8C6AD0F1AE2E4FE004F31D9 /* DUIMacTestClientViewController.m */,
+				A8C6ACFE1AE2DC47004F31D9 /* Main.storyboard */,
+				AAAA66B918540F7200DED5C1 /* Images.xcassets */,
+				AAAA66A818540F7200DED5C1 /* Supporting Files */,
+			);
+			path = DUITestOSX;
+			sourceTree = "<group>";
+		};
+		AAAA66A818540F7200DED5C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAAA66A918540F7200DED5C1 /* DUITestOSX-Info.plist */,
+				AAAA66AA18540F7200DED5C1 /* InfoPlist.strings */,
+				AAAA66AD18540F7200DED5C1 /* main.m */,
+				AAAA66AF18540F7200DED5C1 /* DUITestOSX-Prefix.pch */,
+				AAAA66B018540F7200DED5C1 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,40 +310,43 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A8DE27CE185276A300D1928D /* DUITest */ = {
+		A8DE27CE185276A300D1928D /* DUITestIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8DE2807185276A300D1928D /* Build configuration list for PBXNativeTarget "DUITest" */;
+			buildConfigurationList = A8DE2807185276A300D1928D /* Build configuration list for PBXNativeTarget "DUITestIOS" */;
 			buildPhases = (
 				A8DE27CB185276A300D1928D /* Sources */,
 				A8DE27CC185276A300D1928D /* Frameworks */,
 				A8DE27CD185276A300D1928D /* Resources */,
+				A8C6ACF61AE2D5B3004F31D9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A8C6ACFC1AE2D6FB004F31D9 /* PBXTargetDependency */,
 			);
-			name = DUITest;
+			name = DUITestIOS;
 			productName = DUITest;
-			productReference = A8DE27CF185276A300D1928D /* DUITest.app */;
+			productReference = A8DE27CF185276A300D1928D /* DUITestIOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A8DE27F5185276A300D1928D /* DUITestTests */ = {
+		AAAA669F18540F7100DED5C1 /* DUITestOSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8DE280A185276A300D1928D /* Build configuration list for PBXNativeTarget "DUITestTests" */;
+			buildConfigurationList = AAAA66CC18540F7300DED5C1 /* Build configuration list for PBXNativeTarget "DUITestOSX" */;
 			buildPhases = (
-				A8DE27F2185276A300D1928D /* Sources */,
-				A8DE27F3185276A300D1928D /* Frameworks */,
-				A8DE27F4185276A300D1928D /* Resources */,
+				AAAA669C18540F7100DED5C1 /* Sources */,
+				AAAA669D18540F7100DED5C1 /* Frameworks */,
+				AAAA669E18540F7100DED5C1 /* Resources */,
+				A8C6AD211AE3144F004F31D9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A8DE27FC185276A300D1928D /* PBXTargetDependency */,
+				A8C6AD201AE3144F004F31D9 /* PBXTargetDependency */,
 			);
-			name = DUITestTests;
-			productName = DUITestTests;
-			productReference = A8DE27F6185276A300D1928D /* DUITestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = DUITestOSX;
+			productName = DUITestOSX;
+			productReference = AAAA66A018540F7100DED5C1 /* DUITestOSX.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -205,11 +355,11 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = D;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Caleb Cannon";
 				TargetAttributes = {
-					A8DE27F5185276A300D1928D = {
-						TestTargetID = A8DE27CE185276A300D1928D;
+					A8DE27CE185276A300D1928D = {
+						DevelopmentTeam = E9NWA6G8FB;
 					};
 				};
 			};
@@ -224,31 +374,72 @@
 			mainGroup = A8DE27C6185276A300D1928D;
 			productRefGroup = A8DE27D0185276A300D1928D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A8C6ACE51AE2D17B004F31D9 /* Products */;
+					ProjectRef = A8C6ACE41AE2D17B004F31D9 /* DistributedUI.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				A8DE27CE185276A300D1928D /* DUITest */,
-				A8DE27F5185276A300D1928D /* DUITestTests */,
+				A8DE27CE185276A300D1928D /* DUITestIOS */,
+				AAAA669F18540F7100DED5C1 /* DUITestOSX */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A8C6ACEC1AE2D17C004F31D9 /* DistributedUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DistributedUI.framework;
+			remoteRef = A8C6ACEB1AE2D17C004F31D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8C6ACEE1AE2D17C004F31D9 /* DistributedUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DistributedUI.framework;
+			remoteRef = A8C6ACED1AE2D17C004F31D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8C6ACF01AE2D17C004F31D9 /* DistributedUI iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "DistributedUI iOS Tests.xctest";
+			remoteRef = A8C6ACEF1AE2D17C004F31D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8C6ACF21AE2D17C004F31D9 /* DistributedUI OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "DistributedUI OSX Tests.xctest";
+			remoteRef = A8C6ACF11AE2D17C004F31D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A8DE27CD185276A300D1928D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8DE27E9185276A300D1928D /* Main_iPad.storyboard in Resources */,
-				A8DE27F1185276A300D1928D /* Images.xcassets in Resources */,
-				A8DE27E6185276A300D1928D /* Main_iPhone.storyboard in Resources */,
-				A8DE27DD185276A300D1928D /* InfoPlist.strings in Resources */,
+				AAAA66F6185413A200DED5C1 /* Main.storyboard in Resources */,
+				AAAA66F01854110600DED5C1 /* InfoPlist.strings in Resources */,
+				A8268D681871317A00D137CF /* downarrow.png in Resources */,
+				AAAA66E71854106E00DED5C1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8DE27F4185276A300D1928D /* Resources */ = {
+		AAAA669E18540F7100DED5C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8DE2802185276A300D1928D /* InfoPlist.strings in Resources */,
+				AAAA66AC18540F7200DED5C1 /* InfoPlist.strings in Resources */,
+				A8C6ACFF1AE2DC47004F31D9 /* Main.storyboard in Resources */,
+				A8C6AD141AE2E83B004F31D9 /* downarrow.png in Resources */,
+				AAAA66BA18540F7200DED5C1 /* Images.xcassets in Resources */,
+				AAAA66B218540F7200DED5C1 /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,63 +450,68 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8DE27EC185276A300D1928D /* DFirstViewController.m in Sources */,
-				A8DE27EF185276A300D1928D /* DSecondViewController.m in Sources */,
-				A8DE27DF185276A300D1928D /* main.m in Sources */,
-				A8DE27E3185276A300D1928D /* DAppDelegate.m in Sources */,
+				AAAA66DA1854100200DED5C1 /* DUITestAppDelegate.m in Sources */,
+				AAAA66DB1854100200DED5C1 /* DUITestControlsViewController.m in Sources */,
+				A854625518D7A06D0097D97D /* DUITestSingletonClass.m in Sources */,
+				A854626718D7A65F0097D97D /* DUITestClientViewController.m in Sources */,
+				AAAA66E11854103100DED5C1 /* main.m in Sources */,
+				A854626B18D7A6980097D97D /* DUITestHostViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8DE27F2185276A300D1928D /* Sources */ = {
+		AAAA669C18540F7100DED5C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8DE2804185276A300D1928D /* DUITestTests.m in Sources */,
+				A8C6AD051AE2E4BD004F31D9 /* DUITestSingletonClass.m in Sources */,
+				AAAA66AE18540F7200DED5C1 /* main.m in Sources */,
+				A8C6AD0C1AE2E4F5004F31D9 /* DUIMacTestHostViewController.m in Sources */,
+				AAAA66B518540F7200DED5C1 /* DUIMacTestOSXAppDelegate.m in Sources */,
+				A8C6AD111AE2E4FE004F31D9 /* DUIMacTestClientViewController.m in Sources */,
+				A8C6AD081AE2E4EC004F31D9 /* DUIMacTestControlsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A8DE27FC185276A300D1928D /* PBXTargetDependency */ = {
+		A8C6ACFC1AE2D6FB004F31D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A8DE27CE185276A300D1928D /* DUITest */;
-			targetProxy = A8DE27FB185276A300D1928D /* PBXContainerItemProxy */;
+			name = "DistributedUI-iOS";
+			targetProxy = A8C6ACFB1AE2D6FB004F31D9 /* PBXContainerItemProxy */;
+		};
+		A8C6AD201AE3144F004F31D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DistributedUI-OSX";
+			targetProxy = A8C6AD1F1AE3144F004F31D9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A8DE27DB185276A300D1928D /* InfoPlist.strings */ = {
+		AAAA66AA18540F7200DED5C1 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A8DE27DC185276A300D1928D /* en */,
+				AAAA66AB18540F7200DED5C1 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		A8DE27E4185276A300D1928D /* Main_iPhone.storyboard */ = {
+		AAAA66B018540F7200DED5C1 /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A8DE27E5185276A300D1928D /* Base */,
+				AAAA66B118540F7200DED5C1 /* en */,
 			);
-			name = Main_iPhone.storyboard;
+			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		A8DE27E7185276A300D1928D /* Main_iPad.storyboard */ = {
+		AAAA66E41854104300DED5C1 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A8DE27E8185276A300D1928D /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		A8DE2800185276A300D1928D /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8DE2801185276A300D1928D /* en */,
+				AAAA66E51854105200DED5C1 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
+			path = DUITestIOS;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
@@ -324,7 +520,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -354,9 +549,11 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				OTHER_LDFLAGS = "-all_load";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Debug;
 		};
@@ -364,7 +561,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -388,7 +584,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				SDKROOT = iphoneos;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-all_load";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -397,12 +595,29 @@
 		A8DE2808185276A300D1928D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DUITest/DUITest-Prefix.pch";
-				INFOPLIST_FILE = "DUITest/DUITest-Info.plist";
+				GCC_PREFIX_HEADER = "DUITestIOS/DUITestIOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "DUITestIOS/DUITestIOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/calebcannon/Dropbox/Projects/DistributedUI/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/** $(TARGET_BUILD_DIR)/usr/local/include/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -410,55 +625,101 @@
 		A8DE2809185276A300D1928D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DUITest/DUITest-Prefix.pch";
-				INFOPLIST_FILE = "DUITest/DUITest-Info.plist";
+				GCC_PREFIX_HEADER = "DUITestIOS/DUITestIOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(TARGET_BUILD_DIR)/usr/local/include/**",
+				);
+				INFOPLIST_FILE = "DUITestIOS/DUITestIOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/calebcannon/Dropbox/Projects/DistributedUI/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/** $(TARGET_BUILD_DIR)/usr/local/include/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		A8DE280B185276A300D1928D /* Debug */ = {
+		AAAA66CD18540F7300DED5C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DUITest.app/DUITest";
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DUITest/DUITest-Prefix.pch";
+				GCC_PREFIX_HEADER = "DUITestOSX/DUITestOSX-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "DUITestTests/DUITestTests-Info.plist";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "DUITestOSX/DUITestOSX-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/calebcannon/Dropbox/Projects/DistributedUI/build/Debug,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/** $(TARGET_BUILD_DIR)/usr/local/include/**";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		A8DE280C185276A300D1928D /* Release */ = {
+		AAAA66CE18540F7300DED5C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DUITest.app/DUITest";
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DUITest/DUITest-Prefix.pch";
-				INFOPLIST_FILE = "DUITestTests/DUITestTests-Info.plist";
+				GCC_PREFIX_HEADER = "DUITestOSX/DUITestOSX-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILT_PRODUCTS_DIR)/**",
+				);
+				INFOPLIST_FILE = "DUITestOSX/DUITestOSX-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/calebcannon/Dropbox/Projects/DistributedUI/build/Debug,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/** $(TARGET_BUILD_DIR)/usr/local/include/**";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -474,21 +735,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8DE2807185276A300D1928D /* Build configuration list for PBXNativeTarget "DUITest" */ = {
+		A8DE2807185276A300D1928D /* Build configuration list for PBXNativeTarget "DUITestIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8DE2808185276A300D1928D /* Debug */,
 				A8DE2809185276A300D1928D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A8DE280A185276A300D1928D /* Build configuration list for PBXNativeTarget "DUITestTests" */ = {
+		AAAA66CC18540F7300DED5C1 /* Build configuration list for PBXNativeTarget "DUITestOSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8DE280B185276A300D1928D /* Debug */,
-				A8DE280C185276A300D1928D /* Release */,
+				AAAA66CD18540F7300DED5C1 /* Debug */,
+				AAAA66CE18540F7300DED5C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

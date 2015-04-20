@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A863219818E6084800B70196 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A863219718E6084800B70196 /* Foundation.framework */; };
+		A863219A18E6084800B70196 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A863219918E6084800B70196 /* CoreGraphics.framework */; };
+		A863219C18E6084800B70196 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A863219B18E6084800B70196 /* UIKit.framework */; };
+		A86321A218E6084800B70196 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A86321A018E6084800B70196 /* InfoPlist.strings */; };
+		A86321A418E6084800B70196 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A86321A318E6084800B70196 /* main.m */; };
+		A86321A818E6084800B70196 /* DUIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A86321A718E6084800B70196 /* DUIAppDelegate.m */; };
+		A86321AB18E6084800B70196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A86321A918E6084800B70196 /* Main.storyboard */; };
+		A86321B118E6084800B70196 /* DUIDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86321B018E6084800B70196 /* DUIDrawViewController.m */; };
+		A86321B318E6084800B70196 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A86321B218E6084800B70196 /* Images.xcassets */; };
+		A86321BA18E6084800B70196 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86321B918E6084800B70196 /* XCTest.framework */; };
+		A86321BB18E6084800B70196 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A863219718E6084800B70196 /* Foundation.framework */; };
+		A86321BC18E6084800B70196 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A863219B18E6084800B70196 /* UIKit.framework */; };
+		A86321C418E6084800B70196 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A86321C218E6084800B70196 /* InfoPlist.strings */; };
+		A86321C618E6084800B70196 /* DUIDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A86321C518E6084800B70196 /* DUIDrawTests.m */; };
+		A86321E218E608A700B70196 /* DUIDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = A86321E118E608A700B70196 /* DUIDrawView.m */; };
+		A86321E518E608E200B70196 /* DUIDrawToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86321E418E608E200B70196 /* DUIDrawToolsViewController.m */; };
+		A86321E818E60C6100B70196 /* DUIDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = A86321E718E60C6100B70196 /* DUIDraw.m */; };
+		A8C6ACDC1AE1C32A004F31D9 /* DUIColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6ACDB1AE1C32A004F31D9 /* DUIColorPickerView.m */; };
+		A8C9AF7B1AD303EB0023A8F1 /* DistributedUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C9AF661AD300E40023A8F1 /* DistributedUI.framework */; };
+		A8C9AF7C1AD303EB0023A8F1 /* DistributedUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8C9AF661AD300E40023A8F1 /* DistributedUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A86321BD18E6084800B70196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A863218C18E6084800B70196 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A863219318E6084800B70196;
+			remoteInfo = DUIDraw;
+		};
+		A8C9AF651AD300E40023A8F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C9AF5D1AD300E40023A8F1 /* DistributedUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8C9AF261AD2FCD10023A8F1;
+			remoteInfo = DistributedUI;
+		};
+		A8C9AF691AD300E40023A8F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C9AF5D1AD300E40023A8F1 /* DistributedUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A817DB3118D38FD700D5A6DA;
+			remoteInfo = "DistributedUI-OSX";
+		};
+		A8C9AF6B1AD300E40023A8F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C9AF5D1AD300E40023A8F1 /* DistributedUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8F2EC1C186EC15E008D5621;
+			remoteInfo = "DistributedUI iOS Tests";
+		};
+		A8C9AF6D1AD300E40023A8F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C9AF5D1AD300E40023A8F1 /* DistributedUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AA0FB44F1867C2E200268FB0;
+			remoteInfo = "DistributedUI OSX Tests";
+		};
+		A8C9AF7D1AD303EB0023A8F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C9AF5D1AD300E40023A8F1 /* DistributedUI.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A8C9AF251AD2FCD00023A8F1;
+			remoteInfo = DistributedUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A8C9AF7F1AD303EB0023A8F1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A8C9AF7C1AD303EB0023A8F1 /* DistributedUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A863219418E6084800B70196 /* DUIDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DUIDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A863219718E6084800B70196 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A863219918E6084800B70196 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A863219B18E6084800B70196 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A863219F18E6084800B70196 /* DUIDraw-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DUIDraw-Info.plist"; sourceTree = "<group>"; };
+		A86321A118E6084800B70196 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A86321A318E6084800B70196 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A86321A518E6084800B70196 /* DUIDraw-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DUIDraw-Prefix.pch"; sourceTree = "<group>"; };
+		A86321A618E6084800B70196 /* DUIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUIAppDelegate.h; sourceTree = "<group>"; };
+		A86321A718E6084800B70196 /* DUIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUIAppDelegate.m; sourceTree = "<group>"; };
+		A86321AA18E6084800B70196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A86321AF18E6084800B70196 /* DUIDrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUIDrawViewController.h; sourceTree = "<group>"; };
+		A86321B018E6084800B70196 /* DUIDrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUIDrawViewController.m; sourceTree = "<group>"; };
+		A86321B218E6084800B70196 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A86321B818E6084800B70196 /* DUIDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DUIDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86321B918E6084800B70196 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A86321C118E6084800B70196 /* DUIDrawTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DUIDrawTests-Info.plist"; sourceTree = "<group>"; };
+		A86321C318E6084800B70196 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A86321C518E6084800B70196 /* DUIDrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUIDrawTests.m; sourceTree = "<group>"; };
+		A86321DE18E6088000B70196 /* libDistributedUI-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libDistributedUI-iOS.a"; path = "../../build/Debug-iphoneos/libDistributedUI-iOS.a"; sourceTree = "<group>"; };
+		A86321E018E608A700B70196 /* DUIDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUIDrawView.h; sourceTree = "<group>"; };
+		A86321E118E608A700B70196 /* DUIDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUIDrawView.m; sourceTree = "<group>"; };
+		A86321E318E608E200B70196 /* DUIDrawToolsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUIDrawToolsViewController.h; sourceTree = "<group>"; };
+		A86321E418E608E200B70196 /* DUIDrawToolsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUIDrawToolsViewController.m; sourceTree = "<group>"; };
+		A86321E618E60C6100B70196 /* DUIDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUIDraw.h; sourceTree = "<group>"; };
+		A86321E718E60C6100B70196 /* DUIDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUIDraw.m; sourceTree = "<group>"; };
+		A8C6ACDA1AE1C32A004F31D9 /* DUIColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUIColorPickerView.h; sourceTree = "<group>"; };
+		A8C6ACDB1AE1C32A004F31D9 /* DUIColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUIColorPickerView.m; sourceTree = "<group>"; };
+		A8C9AF571AD2FF1E0023A8F1 /* DistributedUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DistributedUI.framework; path = "../../build/Debug-iphoneos/DistributedUI.framework"; sourceTree = "<group>"; };
+		A8C9AF5B1AD2FFB50023A8F1 /* DistributedUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DistributedUI.framework; path = "../../build/Debug-iphoneos/DistributedUI.framework"; sourceTree = "<group>"; };
+		A8C9AF5D1AD300E40023A8F1 /* DistributedUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DistributedUI.xcodeproj; path = ../../DistributedUI.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A863219118E6084800B70196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C9AF7B1AD303EB0023A8F1 /* DistributedUI.framework in Frameworks */,
+				A863219A18E6084800B70196 /* CoreGraphics.framework in Frameworks */,
+				A863219C18E6084800B70196 /* UIKit.framework in Frameworks */,
+				A863219818E6084800B70196 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86321B518E6084800B70196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86321BA18E6084800B70196 /* XCTest.framework in Frameworks */,
+				A86321BC18E6084800B70196 /* UIKit.framework in Frameworks */,
+				A86321BB18E6084800B70196 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A863218B18E6084800B70196 = {
+			isa = PBXGroup;
+			children = (
+				A863219D18E6084800B70196 /* DUIDraw */,
+				A86321BF18E6084800B70196 /* DUIDrawTests */,
+				A863219618E6084800B70196 /* Frameworks */,
+				A863219518E6084800B70196 /* Products */,
+				A8C9AF5D1AD300E40023A8F1 /* DistributedUI.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		A863219518E6084800B70196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A863219418E6084800B70196 /* DUIDraw.app */,
+				A86321B818E6084800B70196 /* DUIDrawTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A863219618E6084800B70196 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8C9AF5B1AD2FFB50023A8F1 /* DistributedUI.framework */,
+				A8C9AF571AD2FF1E0023A8F1 /* DistributedUI.framework */,
+				A86321DE18E6088000B70196 /* libDistributedUI-iOS.a */,
+				A863219718E6084800B70196 /* Foundation.framework */,
+				A863219918E6084800B70196 /* CoreGraphics.framework */,
+				A863219B18E6084800B70196 /* UIKit.framework */,
+				A86321B918E6084800B70196 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A863219D18E6084800B70196 /* DUIDraw */ = {
+			isa = PBXGroup;
+			children = (
+				A86321A618E6084800B70196 /* DUIAppDelegate.h */,
+				A86321A718E6084800B70196 /* DUIAppDelegate.m */,
+				A86321E618E60C6100B70196 /* DUIDraw.h */,
+				A86321E718E60C6100B70196 /* DUIDraw.m */,
+				A86321AF18E6084800B70196 /* DUIDrawViewController.h */,
+				A86321B018E6084800B70196 /* DUIDrawViewController.m */,
+				A86321E018E608A700B70196 /* DUIDrawView.h */,
+				A86321E118E608A700B70196 /* DUIDrawView.m */,
+				A86321E318E608E200B70196 /* DUIDrawToolsViewController.h */,
+				A86321E418E608E200B70196 /* DUIDrawToolsViewController.m */,
+				A8C6ACDA1AE1C32A004F31D9 /* DUIColorPickerView.h */,
+				A8C6ACDB1AE1C32A004F31D9 /* DUIColorPickerView.m */,
+				A86321A918E6084800B70196 /* Main.storyboard */,
+				A86321B218E6084800B70196 /* Images.xcassets */,
+				A863219E18E6084800B70196 /* Supporting Files */,
+			);
+			path = DUIDraw;
+			sourceTree = "<group>";
+		};
+		A863219E18E6084800B70196 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A863219F18E6084800B70196 /* DUIDraw-Info.plist */,
+				A86321A018E6084800B70196 /* InfoPlist.strings */,
+				A86321A318E6084800B70196 /* main.m */,
+				A86321A518E6084800B70196 /* DUIDraw-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A86321BF18E6084800B70196 /* DUIDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				A86321C518E6084800B70196 /* DUIDrawTests.m */,
+				A86321C018E6084800B70196 /* Supporting Files */,
+			);
+			path = DUIDrawTests;
+			sourceTree = "<group>";
+		};
+		A86321C018E6084800B70196 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A86321C118E6084800B70196 /* DUIDrawTests-Info.plist */,
+				A86321C218E6084800B70196 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8C9AF5E1AD300E40023A8F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8C9AF661AD300E40023A8F1 /* DistributedUI.framework */,
+				A8C9AF6A1AD300E40023A8F1 /* DistributedUI.framework */,
+				A8C9AF6C1AD300E40023A8F1 /* DistributedUI iOS Tests.xctest */,
+				A8C9AF6E1AD300E40023A8F1 /* DistributedUI OSX Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A863219318E6084800B70196 /* DUIDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A86321C918E6084800B70196 /* Build configuration list for PBXNativeTarget "DUIDraw" */;
+			buildPhases = (
+				A863219018E6084800B70196 /* Sources */,
+				A863219118E6084800B70196 /* Frameworks */,
+				A863219218E6084800B70196 /* Resources */,
+				A8C9AF7F1AD303EB0023A8F1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8C9AF7E1AD303EB0023A8F1 /* PBXTargetDependency */,
+			);
+			name = DUIDraw;
+			productName = DUIDraw;
+			productReference = A863219418E6084800B70196 /* DUIDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A86321B718E6084800B70196 /* DUIDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A86321CC18E6084800B70196 /* Build configuration list for PBXNativeTarget "DUIDrawTests" */;
+			buildPhases = (
+				A86321B418E6084800B70196 /* Sources */,
+				A86321B518E6084800B70196 /* Frameworks */,
+				A86321B618E6084800B70196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A86321BE18E6084800B70196 /* PBXTargetDependency */,
+			);
+			name = DUIDrawTests;
+			productName = DUIDrawTests;
+			productReference = A86321B818E6084800B70196 /* DUIDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A863218C18E6084800B70196 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DUI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Caleb Cannon";
+				TargetAttributes = {
+					A863219318E6084800B70196 = {
+						DevelopmentTeam = E9NWA6G8FB;
+					};
+					A86321B718E6084800B70196 = {
+						TestTargetID = A863219318E6084800B70196;
+					};
+				};
+			};
+			buildConfigurationList = A863218F18E6084800B70196 /* Build configuration list for PBXProject "DUIDraw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A863218B18E6084800B70196;
+			productRefGroup = A863219518E6084800B70196 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A8C9AF5E1AD300E40023A8F1 /* Products */;
+					ProjectRef = A8C9AF5D1AD300E40023A8F1 /* DistributedUI.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A863219318E6084800B70196 /* DUIDraw */,
+				A86321B718E6084800B70196 /* DUIDrawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A8C9AF661AD300E40023A8F1 /* DistributedUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DistributedUI.framework;
+			remoteRef = A8C9AF651AD300E40023A8F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8C9AF6A1AD300E40023A8F1 /* DistributedUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DistributedUI.framework;
+			remoteRef = A8C9AF691AD300E40023A8F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8C9AF6C1AD300E40023A8F1 /* DistributedUI iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "DistributedUI iOS Tests.xctest";
+			remoteRef = A8C9AF6B1AD300E40023A8F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8C9AF6E1AD300E40023A8F1 /* DistributedUI OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "DistributedUI OSX Tests.xctest";
+			remoteRef = A8C9AF6D1AD300E40023A8F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A863219218E6084800B70196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86321B318E6084800B70196 /* Images.xcassets in Resources */,
+				A86321AB18E6084800B70196 /* Main.storyboard in Resources */,
+				A86321A218E6084800B70196 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86321B618E6084800B70196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86321C418E6084800B70196 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A863219018E6084800B70196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86321E818E60C6100B70196 /* DUIDraw.m in Sources */,
+				A86321B118E6084800B70196 /* DUIDrawViewController.m in Sources */,
+				A86321E518E608E200B70196 /* DUIDrawToolsViewController.m in Sources */,
+				A86321A418E6084800B70196 /* main.m in Sources */,
+				A8C6ACDC1AE1C32A004F31D9 /* DUIColorPickerView.m in Sources */,
+				A86321A818E6084800B70196 /* DUIAppDelegate.m in Sources */,
+				A86321E218E608A700B70196 /* DUIDrawView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86321B418E6084800B70196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86321C618E6084800B70196 /* DUIDrawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A86321BE18E6084800B70196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A863219318E6084800B70196 /* DUIDraw */;
+			targetProxy = A86321BD18E6084800B70196 /* PBXContainerItemProxy */;
+		};
+		A8C9AF7E1AD303EB0023A8F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DistributedUI;
+			targetProxy = A8C9AF7D1AD303EB0023A8F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A86321A018E6084800B70196 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A86321A118E6084800B70196 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A86321A918E6084800B70196 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A86321AA18E6084800B70196 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A86321C218E6084800B70196 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A86321C318E6084800B70196 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A86321C718E6084800B70196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A86321C818E6084800B70196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A86321CA18E6084800B70196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(CONFIGURATION_BUILD_DIR)/$(FRAMEWORKS_FOLDER_PATH)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DUIDraw/DUIDraw-Prefix.pch";
+				INFOPLIST_FILE = "DUIDraw/DUIDraw-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/calebcannon/Dropbox/Projects/DistributedUI/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/** $(TARGET_BUILD_DIR)/usr/local/include/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A86321CB18E6084800B70196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(CONFIGURATION_BUILD_DIR)/$(FRAMEWORKS_FOLDER_PATH)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DUIDraw/DUIDraw-Prefix.pch";
+				INFOPLIST_FILE = "DUIDraw/DUIDraw-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/calebcannon/Dropbox/Projects/DistributedUI/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/** $(TARGET_BUILD_DIR)/usr/local/include/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A86321CD18E6084800B70196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DUIDraw.app/DUIDraw";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DUIDraw/DUIDraw-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DUIDrawTests/DUIDrawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A86321CE18E6084800B70196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DUIDraw.app/DUIDraw";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DUIDraw/DUIDraw-Prefix.pch";
+				INFOPLIST_FILE = "DUIDrawTests/DUIDrawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A863218F18E6084800B70196 /* Build configuration list for PBXProject "DUIDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86321C718E6084800B70196 /* Debug */,
+				A86321C818E6084800B70196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A86321C918E6084800B70196 /* Build configuration list for PBXNativeTarget "DUIDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86321CA18E6084800B70196 /* Debug */,
+				A86321CB18E6084800B70196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A86321CC18E6084800B70196 /* Build configuration list for PBXNativeTarget "DUIDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86321CD18E6084800B70196 /* Debug */,
+				A86321CE18E6084800B70196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A863218C18E6084800B70196 /* Project object */;
+}
