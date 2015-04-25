@@ -50,6 +50,9 @@ Todo
 
 Examples
 --------
+
+Note: testing the example projects will require at least two device, and at least two iPads/iPhones for the DUIDraw example.  To use the examples, build and install the test application on one or more devices, the use the host / connect options to pair the devices. 
+
 ### DUIDraw
 
 ![DUIDraw Screen Shot](https://cloud.githubusercontent.com/assets/450207/7334723/ebd0bb70-eb4f-11e4-89ed-41519b6d7c41.gif)
