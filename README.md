@@ -52,12 +52,11 @@ Examples
 --------
 ### DUIDraw
 
-![DUIDraw Screen Shot](https://cloud.githubusercontent.com/assets/450207/7239063/d296b2ba-e75b-11e4-97bb-4c69a7090e72.png)
+![DUIDraw Screen Shot](https://cloud.githubusercontent.com/assets/450207/7334723/ebd0bb70-eb4f-11e4-89ed-41519b6d7c41.gif)
 
 ### DUIChess
 
-![DUIChess Screen Shot](https://cloud.githubusercontent.com/assets/450207/7238052/b521aa34-e754-11e4-8315-e52d60af051e.png)
-![DUIChess Screen Shot](https://cloud.githubusercontent.com/assets/450207/7238049/b1f34a0c-e754-11e4-9ec1-b4119d9fc4fa.png)
+![DUIChess Screen Shot](https://cloud.githubusercontent.com/assets/450207/7334724/ec047046-eb4f-11e4-8b73-79477509d085.gif)
 
 
 Copyright & Acknowledgements
