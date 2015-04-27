@@ -55,9 +55,13 @@ Note: testing the example projects will require at least two device, and at leas
 
 ### DUIDraw
 
+This example multiple iOS devices to create a distributed paint application.  When multiple devices are present in the application session the user interface is distributed across all devices.  When one device is present the application uses a traditional 'toolbar' based interface.
+
 ![DUIDraw Screen Shot](https://cloud.githubusercontent.com/assets/450207/7334723/ebd0bb70-eb4f-11e4-89ed-41519b6d7c41.gif)
 
 ### DUIChess
+
+The chess example implements a simple multiplayer game using multiple devices.  The app supports any combination of up to 8 iPhone, iPad, and Mac devices.
 
 ![DUIChess Screen Shot](https://cloud.githubusercontent.com/assets/450207/7334724/ec047046-eb4f-11e4-8b73-79477509d085.gif)
 
